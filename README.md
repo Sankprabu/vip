@@ -1,104 +1,81 @@
-ViP Browser
-ViP Browser adalah web browser ringan yang dibangun menggunakan PyQt6 dengan fitur-fitur modern dan fokus pada privasi pengguna.
+# ViP Browser
 
-Fitur Utama
-🔒 Mode Incognito
-🌙 Dark/Light Mode
-📱 Desktop/Mobile View
-🔖 Bookmark Management
-📜 Riwayat Browsing
-🛡️ Privacy Settings (DNT, GPC)
-🔍 Pencarian dalam Halaman
-📥 Download Manager
-🗑️ Cache Management
-Persyaratan Sistem
-Python 3.8+
-PyQt6
-PyQtWebEngine
-Instalasi
-Clone repository ini:
-bash
+<p align="center">
+  <img src="assets/browser_icon.ico" alt="ViP Browser Logo" width="200"/>
+</p>
 
-Verify
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
-Open In Editor
-Edit
-Copy code
-git clone https://github.com/username/vip-browser.git
+ViP Browser adalah web browser ringan dan aman yang dibuat dengan PyQt6. Browser ini menawarkan fitur modern sambil tetap menjaga privasi dan keamanan pengguna.
+
+## ✨ Fitur
+
+- 🔒 **Prioritas Privasi**
+  - Mode Penyamaran
+  - Do Not Track (DNT)
+  - Kontrol Privasi Global (GPC)
+  - Manajemen Client Hints
+
+- 🎨 **UI Modern**
+  - Mode Gelap/Terang
+  - Tampilan Desktop/Mobile
+  - Manajemen Tab
+  - Antarmuka Bersih
+
+- 📚 **Fitur Pengguna**
+  - Manajemen Bookmark
+  - Riwayat Browsing
+  - Pengelola Unduhan
+  - Pencarian dalam Halaman
+  - Manajemen Cache
+
+## 🚀 Instalasi
+
+### Prasyarat
+- Python 3.8+
+- pip (Python package manager)
+
+### Langkah-langkah
+
+1. Clone repositori
+```bash
+git clone https://github.com/yourusername/vip-browser.git
 cd vip-browser
-Install dependencies:
-bash
+```
 
-Verify
+2. Install the required packages:
 
-Open In Editor
-Edit
-Copy code
-pip install -r requirements.txt
-Jalankan browser:
-bash
+```bash
+pip install PyQt6 user_agents
+```
+3. Make sure you have the necessary assets (like icons) in the assets directory.
 
-Verify
+## Usage
 
-Open In Editor
-Edit
-Copy code
+To run the browser, execute the following command in your terminal:
+
+```bash
 python main.py
-Dependencies
-PyQt6
-PyQt6-WebEngine
-urllib3
-requests
-user-agents
-Penggunaan
-Navigasi Dasar
-Gunakan address bar untuk memasukkan URL atau kata kunci pencarian
-Tombol Back/Forward untuk navigasi
-Tombol Refresh untuk memuat ulang halaman
-Tab Management
-Klik tombol "+" untuk tab baru
-Klik tombol "Incognito" untuk mode private browsing
-Klik kanan pada tab untuk opsi tambahan
-Fitur Privacy
-Toggle Do Not Track (DNT)
-Global Privacy Control (GPC)
-Client Hints Management
-Private Browsing Mode
-Pengaturan
-Dark/Light Mode
-Desktop/Mobile View
-Privacy Settings
-Cache Management
-Download Settings
-Struktur Proyek
+```
+This will launch the ViP Browser, allowing you to start browsing the web.
 
-Kontribusi
-Kontribusi sangat diterima! Silakan ikuti langkah-langkah berikut:
+## Configuration
 
-Fork repository
-Buat branch fitur (git checkout -b feature/AmazingFeature)
-Commit perubahan (git commit -m 'Add some AmazingFeature')
-Push ke branch (git push origin feature/AmazingFeature)
-Buat Pull Request
+The browser settings are stored in a JSON file named settings.json. You can customize the following options:
 
-Lisensi
-Proyek ini dilisensikan di bawah MIT License
+- desktop_mode: Set to true to enable desktop mode by default.
+- dark_mode: Set to true to enable dark mode by default.
 
-Acknowledgments
-PyQt6
-QtWebEngine
-Icons by IconScout
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Known Issues
-Lihat Issues untuk daftar lengkap bug yang diketahui dan fitur yang direncanakan.
+## Acknowledgments
 
-Changelog
-[1.0.0] - 2024-01-20
-Initial release
-Basic browsing features
-Tab management
-Privacy settings
-[0.9.0] - 2024-01-10
-Beta release
-Bug fixes
-Performance improvements
+- Thanks to the PyQt community for providing a powerful framework for building desktop applications.
+- Special thanks to all contributors and users who support the development of ViP Browser.
