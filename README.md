@@ -48,13 +48,36 @@ ViP Browser adalah web browser ringan dan aman yang dibuat dengan PyQt6. Browser
 git clone https://github.com/yourusername/vip-browser.git
 cd vip-browser
 ```
+2. Install the required
+```bash
+python --version
+```
+3. Install the required
+```bash
+python -m pip install --upgrade pip
 
-2. Install the required packages:
+```
 
+4. Virtual Environment
+```bash
+python -m venv venv
+```
+
+- Aktivasi virtual environment:
+  - Windows: venv\Scripts\activate
+  - Linux/Mac: source venv/bin/activate
+
+
+5. Instal PyQt6 dan PyQt6-WebEngine
+
+```bash
+pip install PyQt6 PyQt6-WebEngine
+```
+6. Install the required
 ```bash
 pip install PyQt6 user_agents
 ```
-3. Make sure you have the necessary assets (like icons) in the assets directory.
+6. Make sure you have the necessary assets (like icons) in the assets directory.
 
 ## Usage
 
